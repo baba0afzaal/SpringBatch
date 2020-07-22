@@ -26,6 +26,8 @@ public class JobInvokeController {
 		jobLauncher.run(processJob, jobParameters);
 		return "BATCH HAS BEEN INVOKED";
 
+		
+		
 	}
 	/*@RequestMapping("/invokejob1")
 	public void handler1()throws Exception{
