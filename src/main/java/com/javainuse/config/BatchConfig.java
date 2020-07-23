@@ -50,7 +50,7 @@ public class BatchConfig {
 				.<User, User >chunk(100)
 //				.reader(new Reader())
 				.reader(reader())
-//				.processor(new Processor())
+				.processor(new Processor())
 				.writer(writer())
 				.build();
 	}
